@@ -1,0 +1,25 @@
+{
+  "name": "onsenapp",
+  "version": "0.0.0",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "build": "babel www/js/app.jsx -o www/js/app.js",
+    "watch": "babel www/js/app.jsx --watch -o www/js/app.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "onsenui": "2.0.0-rc.16",
+    "react": "",
+    "react-dom": "",
+    "react-onsenui": ""
+  },
+  "devDependencies": {
+    "babel-cli": "",
+    "babel-preset-react": ""
+  },
+  "babel": {
+    "presets": ["react"]
+  }
+}
